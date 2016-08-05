@@ -13,6 +13,9 @@ public class SabreLowFareSearch {
 		// invoke the request
 		// decode the response
 		
+		
+		SessionClose sessionClose = new SessionClose();
+		String status = sessionClose.getSessionCloseStatus(sessionClose.invokeRequest(sessionClose.buildRequest()));
 
 	}
 	
